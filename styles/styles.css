@@ -17,7 +17,7 @@ Apple White - #FAFAFA
 }
 
 body {
-    background-image: url("/media/waves_bg.jpg");
+    background-image: url("media/waves_bg.jpg");
     background-size: 100%;
     font-family: 'Dosis', serif;
 }
