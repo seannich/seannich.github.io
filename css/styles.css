@@ -1,0 +1,80 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Glegoo', serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+/*
+---- Color Palette ----
+Apple White - #FAFAFA
+
+*/
+
+/* Document Properties */
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    background-image: url("../media/maxwell-gifted-483478-unsplash.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper{
+    min-height: 103%;
+}
+
+header div {
+    padding: 8.5% 15% 2% 15%;
+}
+
+#circleimg {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    padding: 0.5%;
+    width: 40%;
+    background-color: white;
+    margin: 0 2% 0 2%;
+}
+
+header div h1 {
+    padding-top: 5%;
+}
+
+header div p {
+    padding-bottom: 5%;
+}
+
+body {
+    background-size: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+}
+
+
+
+
+/* Navigation Properties */
+nav ul {
+    list-style-type: none;
+    padding: 50px;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: #FAFAFA;
+    text-decoration: none;
+}
