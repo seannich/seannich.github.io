@@ -61,7 +61,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 main {
-    background-image: url("../media/bananananana.jpg");
+    background-image: url("../media/bg2.jpg");
+    background-size: 33.33333334%;
     padding-bottom: 1%;
 }
 
@@ -85,6 +86,7 @@ section div h3 {
 
 footer {
     text-align: center;
+    color: white;
 }
 
 /* Navigation Properties */
