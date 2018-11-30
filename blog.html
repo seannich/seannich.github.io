@@ -8,54 +8,39 @@
 
         <!-- CSS Stylesheets -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400i" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- Javascript Scripts -->
     </head>
         
     <body>
-        <header id="wrapper">
-            <div>
-                <img id="circleimg" src="media/memeworthy_sean.png" alt="Sean Nicholas breaking the law">
-                <h1>Sean Nicholas</h1>
-                <h2>Full time student and a part time athelete</h2>
-                <p>A self driven individual with a wild imagination.</p>
-            </div>
-        </header>
+        <div class="grid-container">
+            <header>
+                <ul class="nav-menu"> 
+                    <li><a class="active">Menu</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </header>
+    
+            <main>
+                <section>
+                    <div class="title">
+                        <h1>Blog</h1>
+                    </div>
+                    
+                    <div class="post"> <!--copy this div to make a new post -->
+                        <h3 class="post-title">001: IDEA APPROVED!</h3>
+                        <p>This blog is for one of my modules that I'm currently taking, Portfolio 1.</p> 
+                        <p>My partner and I have come up with an idea for what we would like to do for our Portfolio 1 Project.</p>
+                        <img src="media/ideation.jpg">
+                        <p>Similar to Cryptojacking, websites would include our JavaScript which then calls onto our backend. Our backend would then send across the tasks to execute. After the client has executed the task, they send back the result to our backend. I foresee that this could be applied to any field that requires large amounts of concurrent tasks, e.g. Machine Learning.</p>
+                        <p style="text-align: right;">30 November 2018</p>
+                    </div>
+                </section>
+            </main>
+        </div>
         
-        <main>
-            <section>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">about</a></li>
-                        <li><a href="blog.html" style="text-decoration: underline">blog</a></li>
-                    </ul>
-                </nav>
-
-                <div style="background-color: salmon"> <!--copy this div to make a new post -->
-                    <h3>001: example</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p style="text-align: right;">7 November 2018</p>
-                </div>
-
-                <div> <!--copy this div to make a new post -->
-                    <h3>002: A REALISATION</h3>
-                    <p>I realised that there are many designs that I would love to try while using this page personally. So to anyone that views this, you would probably see many changes in the website design.</p>
-                    <p>Some ideas would be colour coding the posts so that its easier to know which category they belong to. E.g. green for school related posts and white for personal posts. I currently have an idea to use a menu to navigate through the website but since I'm so busy with school and CCAs and work, it would take some time to update the design of the website. </p>
-                    <p style="text-align: right;">8 November 2018</p>
-                </div>
-
-                <div> <!--copy this div to make a new post -->
-                    <h3>001: GENESIS</h3>
-                    <p>This blog is for one of my modules that I'm currently taking, Portfolio 1.</p>
-                    <p style="text-align: right;">7 November 2018</p>
-                </div>
-            </section>
-
-            <footer>
-                <p>Copyright 2018 Sean Nicholas</p>
-            </footer>
-        </main>
-
     </body>
 </html>
