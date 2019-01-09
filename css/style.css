@@ -1,26 +1,26 @@
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
-
-html {
+html{
     font-family: 'Poppins', sans-serif;
+    background-color: #fcfaf8;
 }
-
-header {
-min-width: 100px;
+header{
+    float: left;
 }
-
-/* Navigation Properties */
 ul {
     list-style-type: none;
     margin: 3% 0 0 2%;
     padding: 0;
-    width: 200px;
     background-color: #f1f1f1;
-    width: 90%;
+    width: 17%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-li a {
+ul li {
+    list-style: none;
+}
+ul li a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -28,7 +28,7 @@ li a {
     text-align: center;
 }
 
-li a.active {
+ul li a.active {
     background-color: rgb(58, 183, 255);
 }
 
@@ -37,16 +37,18 @@ li a:hover:not(.active) {
     color: white;
 }
 
-.nav-menu {
-    position: fixed;
-    width: 15%;
+main {
+    padding-left: 17%;
 }
 
-/* Classes */
+.nav-menu {
+    position: fixed;
+}
 
 .title {
     padding-left: 5%;
     padding-top: 2%;
+    border-bottom: double black;
 }
 
 section {
@@ -74,10 +76,67 @@ div h3.post-title {
     padding: 2% 0 0 8%;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-areas:
-        "header main "
-        "header main "
-        "header main ";
+.title {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+@media screen and (max-width: 1040px) {
+    header{
+        float: left;
+    }
+    ul {
+        list-style-type: none;
+        margin: 3% 0 0 2%;
+        padding: 0;
+        background-color: #f1f1f1;
+        width: 17%;
+        font-size: .8em;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    ul li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        padding: 8px 1%;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    ul li a.active {
+        background-color: rgb(58, 183, 255);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header{
+        float: left;
+    }
+    ul {
+        list-style-type: none;
+        margin: 3% 0 0 2%;
+        padding: 0;
+        background-color: #f1f1f1;
+        width: 17%;
+        font-size: .8em;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    ul li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        padding: 8px 1%;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    ul li a.active {
+        background-color: rgb(58, 183, 255);
+    }
 }
