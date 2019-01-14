@@ -19,7 +19,7 @@
                 <li><a>Menu</a></li>
                 <li><a href="index.html" class="hvr-forward header-right">About</a></li>
                 <li><a href="blog.html" class="hvr-forward header-right">Blog</a></li>
-                <li><a href="#projects" class="hvr-forward header-right">Projects</a></li>
+                <li><a href="#projects" class="hvr-forward header-right" onclick="errorFunction()">Projects</a></li>
             </header>
 
             <main class="site-content">
@@ -87,5 +87,11 @@
                 </footer>
             </main>
         </div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script>
+            function errorFunction(){
+                swal("This page currently does not exist.");
+            }
+        </script>
     </body>
 </html>

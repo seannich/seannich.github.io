@@ -130,3 +130,23 @@ div h3.post-title {
         width: 90%;
     }
 } 
+
+.swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: black;
+    font-size: 12px;
+    color: white;
+    border: 1px solid black;
+    /* text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); */
+}
+
+.swal-button:hover {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: white;
+    font-size: 12px;
+    color: black;
+    border: 1px solid white;
+    /* text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); */
+}
