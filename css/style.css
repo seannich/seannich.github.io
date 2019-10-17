@@ -25,6 +25,11 @@ li {
     margin-left: 10%;
 }
 
+.separator {
+    border-bottom: white solid 2px;
+    width: 80%;
+}
+
 li a {
     display: block;
     color: white;
@@ -34,6 +39,9 @@ li a {
 
 ol li {
     color: black;
+    list-style-type: decimal;
+    width: 100%;
+    margin: 0;
 }
 
 main {
