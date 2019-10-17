@@ -32,6 +32,10 @@ li a {
     text-decoration: none;
 }
 
+ol li {
+    color: black;
+}
+
 main {
     margin-left: 30%;
     position: relative;
