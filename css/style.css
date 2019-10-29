@@ -25,6 +25,10 @@ li {
     margin-left: 10%;
 }
 
+.outer-nav {
+    padding: 0;
+}
+
 .separator {
     border-bottom: white solid 2px;
     width: 80%;

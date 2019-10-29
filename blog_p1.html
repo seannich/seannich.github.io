@@ -16,16 +16,22 @@
     <body>
         <div>
             <header>
-                <li class="separator"><a>Menu</a></li>
-                <li><a href="index.html" class="hvr-forward header-right">About</a></li>
-                <li><a href="blog.html" class="hvr-forward header-right">Blog</a></li>
-                <li><a href="#projects" class="hvr-forward header-right" onclick="errorFunction()">Projects</a></li>
+                <ul class="outer-nav">
+                    <li class="separator"><a>Menu</a></li>
+                    <li><a href="index.html" class="hvr-forward header-right">About</a></li>
+                    <li><a>Blog</a></li>
+                    <ul class="inner-nav">
+                        <li><a href="blog_p1.html" class="hvr-forward header-right">P1 Module</a></li>
+                        <li><a href="blog_p2.html" class="hvr-forward header-right">P2 Module</a></li>
+                    </ul>
+                    <li><a href="#projects" class="hvr-forward header-right" onclick="errorFunction()">Projects</a></li>
+                </ul>
             </header>
 
             <main class="site-content">
                 <section>
                     <div class="title">
-                        <h1>Blog</h1>
+                        <h1>Portfolio 1 Module Development Blog</h1>
                     </div>
 
                     <div class="post"> <!--copy this div to make a new post -->

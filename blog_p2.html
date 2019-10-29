@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sean Nicholas">
+        <title>seannic's webpage</title>
+
+        <!-- CSS Stylesheets -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Javascript Scripts -->
+    </head>
+        
+    <body>
+        <div>
+            <header>
+                <ul class="outer-nav">
+                    <li class="separator"><a>Menu</a></li>
+                    <li><a href="index.html" class="hvr-forward header-right">About</a></li>
+                    <li><a>Blog</a></li>
+                    <ul class="inner-nav">
+                        <li><a href="blog_p1.html" class="hvr-forward header-right">P1 Module</a></li>
+                        <li><a href="blog_p2.html" class="hvr-forward header-right">P2 Module</a></li>
+                    </ul>
+                    <li><a href="#projects" class="hvr-forward header-right" onclick="errorFunction()">Projects</a></li>
+                </ul>
+            </header>
+        
+            <main class="site-content">
+                <section>
+                    <div class="title">
+                        <h1>Portfolio 2 Module Development Blog</h1>
+                    </div>
+                    
+                    <div class="post"> <!--copy this div to make a new post -->
+                        <h3 class="post-title">001: THE START OF A NEW PROJECT</h3>
+                        <p>This blog is for one of my modules that I'm currently taking, Portfolio 2.</p> 
+                        <p>My associates, Ernest, Jiale, Jabier and Max are creating a machine learning website that helps with sort out resumés.</p>
+                        <p>Our project is called "Resumé Intra-Management Portal" also known as "RIP" and we call ourselves the "Ripperonis".</p>
+                        <!-- <p>Similar to Cryptojacking, websites would include our JavaScript which then calls onto our backend. Our backend would then send across the tasks to execute. After the client has executed the task, they send back the result to our backend. I foresee that this could be applied to any field that requires large amounts of concurrent tasks, e.g. Machine Learning.</p> -->
+                        <p style="text-align: right;">29 October 2019</p>
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="footer">
+                        <p>&copy;2019 Sean Nicholas</p>
+                    </div>
+                </footer>
+            </main>
+        </div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script>
+            function errorFunction(){
+                swal("","This page currently does not exist.", "error");
+            }
+        </script>
+    </body>
+</html>
