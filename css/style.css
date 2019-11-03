@@ -25,6 +25,10 @@ li {
     margin-left: 10%;
 }
 
+.align-right {
+    text-align: right;
+}
+
 .outer-nav {
     padding: 0;
 }
